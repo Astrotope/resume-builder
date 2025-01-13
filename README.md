@@ -20,6 +20,7 @@ The application uses the following fonts:
 ### Font Awesome
 - Source: [Font Awesome 6.6.0](https://use.fontawesome.com/releases/v6.6.0/fontawesome-free-6.6.0-desktop.zip)
 - Used for icons and symbols
+- License: [OFL-1.1](https://openfontlicense.org/)
 
 ### Google Roboto
 - Source: [Roboto v3.010](https://github.com/googlefonts/roboto-3-classic/releases/download/v3.010/Roboto_v3.010.zip)
@@ -72,6 +73,12 @@ Update your personal and professional details in:
 Customize the resume layout and structure in:
 ```
 ./modern-cv/resume.typ
+```
+
+### Profile Picture
+Upload a profile picture in (144x144) PNG format:
+```
+./modern-cv/profile.png
 ```
 
 ## Output
