@@ -1,0 +1,14 @@
+name: resume-generator
+services:
+  typst:
+    container_name: typst
+    stdin_open: true
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile  # Use the Dockerfile in the current directory
+    volumes:
+      - ./modern-cv:/root/modern-cv
+    environment:
+      - TYPST_FONT_PATHS=/root/fonts
+    command: typst watch /root/modern-cv/resume.typ # This will run after the entrypoint
