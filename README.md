@@ -69,6 +69,29 @@ Update your personal and professional details in:
 ./modern-cv/configuration.yaml
 ```
 
+### Configuration.yaml format
+
+```yaml
+author:
+    firstname: "Bob"
+    lastname: "Dilion"
+    email: "bd@bd.com"
+    homepage: "https://www.bd.org"
+    phone: "(+61) 7 1234 5678"
+    github: "bobdilion"
+    twitter: "bobdilion"
+    scholar: ""
+    orcid: "0000-0000-0000-0000"
+    birth: "January 1, 1970"
+    linkedin: "bob-dilion"
+    address: "123 Main St, Anytown, USA"
+    positions:
+        - "Full Stack Development"
+        - "Cloud Computing"
+        - "Artificial Intelligence"
+        - "Machine Learning"
+```
+
 ### Resume Layout
 Customize the resume layout and structure in:
 ```

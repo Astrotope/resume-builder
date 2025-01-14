@@ -54,17 +54,18 @@ out/
 .tmp/
 
 # Other
-
 **/.bash_history
 **/.wget-hsts
 **/.fonts
 **/.cache
 **/.github
+**/configuration.yaml
 
 **/*.bash_history
 **/*.wget-hsts
 **/*.fonts
 **/*.cache
 **/*.github
+**/*.configuration.yaml
 
 
